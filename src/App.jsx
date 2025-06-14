@@ -41,7 +41,7 @@ function App() {
         <DropDown name="Services" />
         <SearchBar />
         <div class="dark-mode-toggle">
-         {<svg src='./dark-theme.svg'></svg>}
+         {<svg src='https://github.com/starfall218/w3-Schools-props-homework/blob/main/src/dark-theme.svg'></svg>}
         </div>
        </div>
         

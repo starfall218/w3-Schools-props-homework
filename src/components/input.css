@@ -18,7 +18,7 @@
 .search-box {
   display: none;
 }
-@media screen and (min-width: 642px) {
+@media screen and (min-width: 999px) {
   .search-box {
     display: flex;
   }
