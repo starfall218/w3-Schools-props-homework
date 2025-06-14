@@ -1,0 +1,28 @@
+.sub-nav {
+  background-color: #282A35; 
+  display: flex;
+  gap: 15px;
+  overflow-x: auto; 
+  white-space: nowrap; 
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+  width: 100%; 
+}
+
+.sub-nav::-webkit-scrollbar {
+  display: none; 
+}
+
+.sub-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+  font-size: 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.sub-nav a:hover {
+  background-color: #070708; 
+}
+

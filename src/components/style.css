@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(138, 138, 138);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-box {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.logo {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 39%;
+}
+.active {
+  opacity: 1;
+}
+a {
+  opacity: 0.3;
+}
+.sticker {
+  background: hsla(179, 67%, 66%, 1);
+
+  background: linear-gradient(90deg, hsla(179, 67%, 66%, 1) 0%, hsla(238, 74%, 61%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(179, 67%, 66%, 1) 0%, hsla(238, 74%, 61%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(179, 67%, 66%, 1) 0%, hsla(238, 74%, 61%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#6FE3E1", endColorstr="#5257E5", GradientType=1 );
+}
+.sticker-two, .sticker {
+  width: 30px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.sticker-two {
+  background: hsla(225, 40%, 54%, 1);
+
+  background: linear-gradient(90deg, hsla(225, 40%, 54%, 1) 0%, hsla(284, 75%, 54%, 1) 100%);
+  
+  background: -moz-linear-gradient(90deg, hsla(225, 40%, 54%, 1) 0%, hsla(284, 75%, 54%, 1) 100%);
+  
+  background: -webkit-linear-gradient(90deg, hsla(225, 40%, 54%, 1) 0%, hsla(284, 75%, 54%, 1) 100%);
+  
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5C73B9", endColorstr="#B330E1", GradientType=1 );
+}
+.sticker span {
+  height: 100%;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 1rem;
+  position: relative;
+}
+
+.nav-links a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background: #fff;
+  bottom: -4px;
+  left: 0;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .main-container {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-grow: 30%;
+      gap: 10px;
+    }
+    .cards-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 90%;
+      height: 40vh;
+      min-height: 40vh;
+      border-radius: 30px;
+      box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+      margin: 30px;
+      position: relative;
+      overflow: hidden;
+      color: aliceblue;
+      font-size: 12px;
+      z-index: 1;
+    }
+
+    .image {
+      background-image: url('./1st\ GitHub\ project.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 70%;
+      position: absolute;
+      z-index: 2;
+    }
+    .text {
+      background: hsla(136, 82%, 72%, 1);
+
+      background: linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+      
+      background: -moz-linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+      
+      background: -webkit-linear-gradient(90deg, hsla(136, 82%, 72%, 1) 0%, hsla(205, 84%, 36%, 1) 100%);
+      
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#7EF29D", endColorstr="#0F68A9", GradientType=1 );
+
+    }
+    .text-two, .text {
+      border-radius: 30px;
+      position: absolute;
+      z-index: 2;
+      top: 55%;
+      right: -42px;
+      height: 70%;
+      width: 180%;
+      transform: skew(19deg, -9deg);
+    }
+    .text-two {
+      background: hsla(252, 40%, 29%, 1);
+
+      background: linear-gradient(90deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+      
+      background: -moz-linear-gradient(90deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+      
+      background: -webkit-linear-gradient(90deg, hsla(252, 40%, 29%, 1) 0%, hsla(270, 77%, 71%, 1) 100%);
+      
+      filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#392D69", endColorstr="#B57BEE", GradientType=1 );
+    }
+  .main-text {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    z-index: 3;
+    justify-content: end;
+  }
+  .text-box p {
+    padding: 4px 12px;
+  }
+   h4 {
+    text-align: center;
+    font-size: 1rem;
+     text-transform: capitalize;
+     color: rgb(61, 58, 58);
+   }
+  @media screen and (min-width: 600px) {
+    .cards-box {
+      width: 25%;
+      font-size: 15px;
+      padding: 5px;
+    }
+    .text, .text-two {
+      height: 180%;
+      height: 65%;
+    }
+  }
